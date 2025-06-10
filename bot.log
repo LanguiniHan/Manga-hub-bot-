@@ -1,0 +1,110 @@
+2025-06-10 04:13:11,411 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-06-10 04:13:11,411 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-06-10 04:13:11,412 - root - ERROR - DISCORD_TOKEN environment variable not found!
+2025-06-10 04:13:11,412 - root - ERROR - DISCORD_TOKEN environment variable not found!
+2025-06-10 04:14:22,865 - root - ERROR - DISCORD_TOKEN environment variable not found!
+2025-06-10 04:14:22,865 - root - INFO - Please set your Discord bot token:
+2025-06-10 04:14:22,866 - root - INFO - 1. Go to https://discord.com/developers/applications
+2025-06-10 04:14:22,866 - root - INFO - 2. Create a new application or select existing one
+2025-06-10 04:14:22,866 - root - INFO - 3. Go to Bot section and copy the token
+2025-06-10 04:14:22,866 - root - INFO - 4. Add the token to your environment variables
+2025-06-10 04:14:23,131 - root - ERROR - DISCORD_TOKEN environment variable not found!
+2025-06-10 04:14:23,131 - root - INFO - Please set your Discord bot token:
+2025-06-10 04:14:23,131 - root - INFO - 1. Go to https://discord.com/developers/applications
+2025-06-10 04:14:23,131 - root - INFO - 2. Create a new application or select existing one
+2025-06-10 04:14:23,132 - root - INFO - 3. Go to Bot section and copy the token
+2025-06-10 04:14:23,132 - root - INFO - 4. Add the token to your environment variables
+2025-06-10 04:18:54,301 - discord.client - INFO - logging in using static token
+2025-06-10 04:18:54,481 - discord.client - INFO - logging in using static token
+2025-06-10 04:18:54,714 - root - INFO - Loaded cog: cogs.moderation
+2025-06-10 04:18:54,808 - root - INFO - Loaded cog: cogs.moderation
+2025-06-10 04:18:55,414 - root - INFO - Loaded cog: cogs.music
+2025-06-10 04:18:55,419 - root - INFO - Loaded cog: cogs.manga
+2025-06-10 04:18:55,466 - root - INFO - Loaded cog: cogs.utility
+2025-06-10 04:18:55,470 - root - INFO - Loaded cog: cogs.admin
+2025-06-10 04:18:55,476 - root - INFO - Loaded cog: cogs.music
+2025-06-10 04:18:55,477 - root - INFO - Loaded cog: cogs.manga
+2025-06-10 04:18:55,488 - root - INFO - Loaded cog: cogs.utility
+2025-06-10 04:18:55,489 - root - INFO - Loaded cog: cogs.admin
+2025-06-10 04:18:55,675 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 259e14bb52782e3382104be12a5933e2).
+2025-06-10 04:18:55,745 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: ef50d70941f008e93fbb5ff504d0b428).
+2025-06-10 04:18:57,678 - root - INFO - Xenon'bot#8893 has connected to Discord!
+2025-06-10 04:18:57,679 - root - INFO - Bot is in 0 guilds
+2025-06-10 04:18:57,679 - root - INFO - Bot is alive! Latency: 39ms
+2025-06-10 04:18:57,747 - root - INFO - Xenon'bot#8893 has connected to Discord!
+2025-06-10 04:18:57,748 - root - INFO - Bot is in 0 guilds
+2025-06-10 04:18:57,748 - root - INFO - Bot is alive! Latency: 40ms
+2025-06-10 04:23:40,775 - root - INFO - Joined new guild: Manga hub 🍂 || mangas || manhwas || chat hub || socials || anime || manhwas || gaming (ID: 758265176159289365)
+2025-06-10 04:23:40,783 - root - INFO - Joined new guild: Manga hub 🍂 || mangas || manhwas || chat hub || socials || anime || manhwas || gaming (ID: 758265176159289365)
+2025-06-10 04:27:55,899 - discord.gateway - INFO - Shard ID None has successfully RESUMED session ef50d70941f008e93fbb5ff504d0b428.
+2025-06-10 04:28:14,632 - discord.client - INFO - logging in using static token
+2025-06-10 04:28:14,967 - root - INFO - Loaded cog: cogs.moderation
+2025-06-10 04:28:15,151 - root - INFO - Loaded cog: cogs.music
+2025-06-10 04:28:15,152 - root - INFO - Loaded cog: cogs.manga
+2025-06-10 04:28:15,166 - root - INFO - Loaded cog: cogs.utility
+2025-06-10 04:28:15,168 - root - INFO - Loaded cog: cogs.admin
+2025-06-10 04:28:15,424 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: bdaa1dd479ec2963095e790dcb84258b).
+2025-06-10 04:28:17,428 - root - INFO - Xenon'bot#8893 has connected to Discord!
+2025-06-10 04:28:17,428 - root - INFO - Bot is in 1 guilds
+2025-06-10 04:28:17,429 - root - INFO - Bot is alive! Latency: 38ms
+2025-06-10 04:32:24,389 - discord.client - INFO - logging in using static token
+2025-06-10 04:32:24,409 - discord.client - INFO - logging in using static token
+2025-06-10 04:32:24,713 - root - INFO - Loaded cog: cogs.moderation
+2025-06-10 04:32:24,897 - root - INFO - Loaded cog: cogs.moderation
+2025-06-10 04:32:24,918 - root - INFO - Loaded cog: cogs.music
+2025-06-10 04:32:24,921 - root - INFO - Loaded cog: cogs.manga
+2025-06-10 04:32:24,947 - root - INFO - Loaded cog: cogs.utility
+2025-06-10 04:32:24,949 - root - INFO - Loaded cog: cogs.admin
+2025-06-10 04:32:25,185 - root - INFO - Loaded cog: cogs.music
+2025-06-10 04:32:25,188 - root - INFO - Loaded cog: cogs.manga
+2025-06-10 04:32:25,197 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 4648f3f0d6bb8be0f533c9316250cdff).
+2025-06-10 04:32:25,220 - root - INFO - Loaded cog: cogs.utility
+2025-06-10 04:32:25,224 - root - INFO - Loaded cog: cogs.admin
+2025-06-10 04:32:25,681 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 4fee6dc8158860ca974a9edb50512bbb).
+2025-06-10 04:32:27,207 - root - INFO - Xenon'bot#8893 has connected to Discord!
+2025-06-10 04:32:27,207 - root - INFO - Bot is in 1 guilds
+2025-06-10 04:32:27,208 - root - INFO - Bot is alive! Latency: 39ms
+2025-06-10 04:32:27,687 - root - INFO - Xenon'bot#8893 has connected to Discord!
+2025-06-10 04:32:27,688 - root - INFO - Bot is in 1 guilds
+2025-06-10 04:32:27,688 - root - INFO - Bot is alive! Latency: 38ms
+2025-06-10 04:38:02,435 - discord.client - INFO - logging in using static token
+2025-06-10 04:38:02,471 - discord.client - INFO - logging in using static token
+2025-06-10 04:38:02,861 - root - INFO - Loaded cog: cogs.moderation
+2025-06-10 04:38:02,891 - root - INFO - Loaded cog: cogs.moderation
+2025-06-10 04:38:03,052 - root - INFO - Loaded cog: cogs.music
+2025-06-10 04:38:03,053 - root - INFO - Loaded cog: cogs.manga
+2025-06-10 04:38:03,066 - root - INFO - Loaded cog: cogs.utility
+2025-06-10 04:38:03,068 - root - INFO - Loaded cog: cogs.admin
+2025-06-10 04:38:03,072 - root - INFO - Loaded cog: cogs.music
+2025-06-10 04:38:03,073 - root - INFO - Loaded cog: cogs.manga
+2025-06-10 04:38:03,085 - root - INFO - Loaded cog: cogs.utility
+2025-06-10 04:38:03,086 - root - INFO - Loaded cog: cogs.admin
+2025-06-10 04:38:03,281 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: ea3273f9c7f4ff9c7526eff9e4fa925a).
+2025-06-10 04:38:04,543 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: efd3371d5087b4f8e2de227cf900c017).
+2025-06-10 04:38:05,287 - root - INFO - Xenon'bot#8893 has connected to Discord!
+2025-06-10 04:38:05,287 - root - INFO - Bot is in 1 guilds
+2025-06-10 04:38:05,288 - root - INFO - Bot is alive! Latency: 38ms
+2025-06-10 04:38:06,554 - root - INFO - Xenon'bot#8893 has connected to Discord!
+2025-06-10 04:38:06,554 - root - INFO - Bot is in 1 guilds
+2025-06-10 04:38:06,555 - root - INFO - Bot is alive! Latency: 48ms
+2025-06-10 04:39:54,818 - discord.client - INFO - logging in using static token
+2025-06-10 04:39:55,122 - root - INFO - Loaded cog: cogs.moderation
+2025-06-10 04:39:55,313 - root - INFO - Loaded cog: cogs.music
+2025-06-10 04:39:55,314 - root - INFO - Loaded cog: cogs.manga
+2025-06-10 04:39:55,326 - root - INFO - Loaded cog: cogs.utility
+2025-06-10 04:39:55,327 - root - INFO - Loaded cog: cogs.admin
+2025-06-10 04:39:55,529 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 5f3e34ee6ece46af313ee29c88289775).
+2025-06-10 04:39:57,552 - root - INFO - Xenon'bot#8893 has connected to Discord!
+2025-06-10 04:39:57,552 - root - INFO - Bot is in 1 guilds
+2025-06-10 04:39:57,553 - root - INFO - Bot is alive! Latency: 38ms
+2025-06-10 04:40:16,036 - root - INFO - Message from xenon.tf: x!ping
+2025-06-10 04:40:16,037 - root - INFO - Guild 758265176159289365 prefix: //
+2025-06-10 04:40:36,351 - root - INFO - Joined new guild: Manga hub • test (ID: 1239508022267744287)
+2025-06-10 04:40:36,353 - root - INFO - Joined new guild: Manga hub • test (ID: 1239508022267744287)
+2025-06-10 04:40:56,496 - root - INFO - Message from xenon.tf: x!ping
+2025-06-10 04:40:56,496 - root - INFO - Guild 1239508022267744287 prefix: x!
+2025-06-10 04:41:11,155 - root - INFO - Message from xenon.tf: x! help
+2025-06-10 04:41:11,156 - root - INFO - Guild 1239508022267744287 prefix: x!
+2025-06-10 04:41:18,591 - root - INFO - Message from xenon.tf: x!help
+2025-06-10 04:41:18,591 - root - INFO - Guild 1239508022267744287 prefix: x!
+2025-06-10 04:41:18,591 - root - INFO - Guild 1239508022267744287 prefix: x!
