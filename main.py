@@ -18,16 +18,13 @@ logging.basicConfig(
     ]
 )
 
-def get_custom_prefix(bot, message):
+async def get_custom_prefix(bot, message):
     """Get custom prefix for each guild"""
-    async def inner():
-        if not message.guild:
-            return "//"
-        
-        prefix = await bot.db.get_guild_prefix(message.guild.id)
-        return prefix or "//"
+    if not message.guild:
+        return "//"
     
-    return asyncio.create_task(inner())
+    prefix = await bot.db.get_guild_prefix(message.guild.id)
+    return prefix or "//"
 
 class DiscordBot(commands.Bot):
     def __init__(self):
