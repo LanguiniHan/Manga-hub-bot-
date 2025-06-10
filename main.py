@@ -21,10 +21,13 @@ logging.basicConfig(
 async def get_custom_prefix(bot, message):
     """Get custom prefix for each guild"""
     if not message.guild:
+        logging.info(f'Using DM prefix: x!')
         return "x!"
     
     prefix = await bot.db.get_guild_prefix(message.guild.id)
-    return prefix or "x!"
+    final_prefix = prefix or "x!"
+    logging.info(f'Guild {message.guild.id} prefix: {final_prefix}')
+    return final_prefix
 
 class DiscordBot(commands.Bot):
     def __init__(self):
@@ -89,9 +92,25 @@ class DiscordBot(commands.Bot):
         logging.info(f'Left guild: {guild.name} (ID: {guild.id})')
         await self.db.remove_guild(guild.id)
     
+    async def on_message(self, message):
+        """Called when a message is sent"""
+        if message.author.bot:
+            return
+        
+        # Log messages for debugging
+        logging.info(f'Message from {message.author}: "{message.content[:50]}"')
+        
+        # Get prefix for debugging
+        prefix = await get_custom_prefix(self, message)
+        logging.info(f'Expected prefix: "{prefix}" | Message starts with prefix: {message.content.startswith(prefix)}')
+        
+        # Process commands
+        await self.process_commands(message)
+    
     async def on_command_error(self, ctx, error):
         """Global error handler"""
         if isinstance(error, commands.CommandNotFound):
+            logging.info(f'Command not found: {ctx.message.content}')
             return
         
         if isinstance(error, commands.MissingPermissions):
