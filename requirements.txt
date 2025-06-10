@@ -1,2 +1,9 @@
 main.py==3.13.2
-https://github.com/LanguiniHan/Manga-hub-bot-/blob/main/main.py
+discord.py
+python-dotenv
+yt-dlp
+aiohttp
+psutil
+pynacl
+##fuck 
+https://github.com/LanguiniHan/Manga-hub-bot-/blob/main/main.py 
