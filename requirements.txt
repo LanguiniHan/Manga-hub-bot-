@@ -1,2 +1,2 @@
 main.py==3.13.2
-https://github.com/LanguiniHan/Manga-hub-bot-.git
+https://github.com/LanguiniHan/Manga-hub-bot-/blob/main/main.py
