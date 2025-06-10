@@ -6,4 +6,4 @@ aiohttp
 psutil
 pynacl
 ##fuck 
-https://github.com/LanguiniHan/Manga-hub-bot-/blob/main/main.py 
+
