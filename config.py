@@ -4,7 +4,7 @@ class Config:
     """Configuration class for the Discord bot"""
     
     # Bot settings
-    DEFAULT_PREFIX = "//"
+    DEFAULT_PREFIX = "x!"
     BOT_NAME = "Multi-Purpose Bot"
     BOT_VERSION = "1.0.0"
     

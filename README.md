@@ -5,45 +5,45 @@ A comprehensive Discord bot with moderation, music playback, manga lookup, and u
 ## Features
 
 ### 🛡️ Moderation Commands (Admin Only)
-- `//ban <user> [reason]` - Ban a member from the server
-- `//kick <user> [reason]` - Kick a member from the server
-- `//warn <user> [reason]` - Warn a member
-- `//warnings <user>` - Check warnings for a member
-- `//quarantine <user> [duration] [reason]` - Quarantine (timeout) a member
-- `//hackban <user_id> [reason]` - Ban a user by ID who isn't in the server
+- `x!ban <user> [reason]` - Ban a member from the server
+- `x!kick <user> [reason]` - Kick a member from the server
+- `x!warn <user> [reason]` - Warn a member
+- `x!warnings <user>` - Check warnings for a member
+- `x!quarantine <user> [duration] [reason]` - Quarantine (timeout) a member
+- `x!hackban <user_id> [reason]` - Ban a user by ID who isn't in the server
 
 ### 🎵 Music Commands
-- `//join` - Join your voice channel
-- `//leave` - Leave the voice channel
-- `//play <song/url>` - Play music from YouTube
-- `//skip` - Skip the current song
-- `//stop` - Stop music and clear queue
-- `//pause` - Pause the current song
-- `//resume` - Resume the paused song
-- `//queue` - Show the current music queue
-- `//volume <0-100>` - Change the music volume
+- `x!join` - Join your voice channel
+- `x!leave` - Leave the voice channel
+- `x!play <song/url>` - Play music from YouTube
+- `x!skip` - Skip the current song
+- `x!stop` - Stop music and clear queue
+- `x!pause` - Pause the current song
+- `x!resume` - Resume the paused song
+- `x!queue` - Show the current music queue
+- `x!volume <0-100>` - Change the music volume
 
 ### 📚 Manga Commands
-- `//manga <title>` - Search for manga information from MangaDex
-- `//randommanga` - Get a random manga recommendation
+- `x!manga <title>` - Search for manga information from MangaDex
+- `x!randommanga` - Get a random manga recommendation
 
 ### 🔧 Utility Commands
-- `//ping` - Check bot latency
-- `//avatar [user]` - Display user's avatar
-- `//banner [user]` - Display user's banner
-- `//userinfo [user]` - Display information about a user
-- `//serverinfo` - Display information about the server
-- `//botinfo` - Display information about the bot
+- `x!ping` - Check bot latency
+- `x!avatar [user]` - Display user's avatar
+- `x!banner [user]` - Display user's banner
+- `x!userinfo [user]` - Display information about a user
+- `x!serverinfo` - Display information about the server
+- `x!botinfo` - Display information about the bot
 
 ### ⚙️ Admin Commands
-- `//setprefix <prefix>` - Change the server prefix (default: //)
-- `//setlogchannel <channel>` - Set the logging channel for moderation actions
-- `//clearlogchannel` - Clear the current log channel
-- `//settings` - Show current server settings
+- `x!setprefix <prefix>` - Change the server prefix (default: x!)
+- `x!setlogchannel <channel>` - Set the logging channel for moderation actions
+- `x!clearlogchannel` - Clear the current log channel
+- `x!settings` - Show current server settings
 
 ### 📝 Help Command
-- `//help` - Show all commands
-- `//help <command>` - Show detailed help for a specific command
+- `x!help` - Show all commands
+- `x!help <command>` - Show detailed help for a specific command
 
 ## Setup Instructions
 
@@ -97,7 +97,7 @@ python main.py
 ## Configuration
 
 ### Default Settings
-- **Prefix:** `//` (can be changed per server)
+- **Prefix:** `x!` (can be changed per server)
 - **Admin Permissions:** Administrator, Manage Server, Manage Channels, Manage Roles, Ban Members, Kick Members
 
 ### Server-Specific Settings

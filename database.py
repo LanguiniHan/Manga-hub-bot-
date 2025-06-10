@@ -45,7 +45,7 @@ class Database:
         guild_id = str(guild_id)
         if guild_id not in self.data["guilds"]:
             self.data["guilds"][guild_id] = {
-                "prefix": "//",
+                "prefix": "x!",
                 "log_channel": None,
                 "created_at": datetime.now().isoformat()
             }
@@ -61,7 +61,7 @@ class Database:
     async def get_guild_prefix(self, guild_id):
         """Get guild prefix"""
         guild_id = str(guild_id)
-        return self.data["guilds"].get(guild_id, {}).get("prefix", "//")
+        return self.data["guilds"].get(guild_id, {}).get("prefix", "x!")
     
     async def set_guild_prefix(self, guild_id, prefix):
         """Set guild prefix"""

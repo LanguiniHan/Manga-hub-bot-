@@ -21,10 +21,10 @@ logging.basicConfig(
 async def get_custom_prefix(bot, message):
     """Get custom prefix for each guild"""
     if not message.guild:
-        return "//"
+        return "x!"
     
     prefix = await bot.db.get_guild_prefix(message.guild.id)
-    return prefix or "//"
+    return prefix or "x!"
 
 class DiscordBot(commands.Bot):
     def __init__(self):
@@ -72,7 +72,7 @@ class DiscordBot(commands.Bot):
         await self.change_presence(
             activity=discord.Activity(
                 type=discord.ActivityType.listening,
-                name="//help for commands"
+                name="x!help for commands"
             )
         )
         
