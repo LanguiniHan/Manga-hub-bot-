@@ -4,6 +4,7 @@ import asyncio
 import json
 import os
 import logging
+from datetime import datetime
 from config import Config
 from database import Database
 
@@ -17,30 +18,33 @@ logging.basicConfig(
     ]
 )
 
+def get_custom_prefix(bot, message):
+    """Get custom prefix for each guild"""
+    async def inner():
+        if not message.guild:
+            return "//"
+        
+        prefix = await bot.db.get_guild_prefix(message.guild.id)
+        return prefix or "//"
+    
+    return asyncio.create_task(inner())
+
 class DiscordBot(commands.Bot):
     def __init__(self):
         # Get all intents
         intents = discord.Intents.all()
         
+        # Initialize database first
+        self.db = Database()
+        self.config = Config()
+        
         # Initialize bot with default prefix
         super().__init__(
-            command_prefix=self.get_prefix,
+            command_prefix=get_custom_prefix,
             intents=intents,
             help_command=None,  # We'll create custom help
             case_insensitive=True
         )
-        
-        # Initialize database
-        self.db = Database()
-        self.config = Config()
-        
-    async def get_prefix(self, message):
-        """Get custom prefix for each guild"""
-        if not message.guild:
-            return "//"
-        
-        prefix = await self.db.get_guild_prefix(message.guild.id)
-        return prefix or "//"
     
     async def setup_hook(self):
         """Load all cogs when bot starts"""
@@ -74,6 +78,9 @@ class DiscordBot(commands.Bot):
                 name="//help for commands"
             )
         )
+        
+        # Add start time for uptime tracking
+        self.start_time = datetime.now()
     
     async def on_guild_join(self, guild):
         """Called when bot joins a new guild"""
@@ -135,6 +142,11 @@ if __name__ == "__main__":
     token = os.getenv('DISCORD_TOKEN')
     if not token:
         logging.error('DISCORD_TOKEN environment variable not found!')
+        logging.info('Please set your Discord bot token:')
+        logging.info('1. Go to https://discord.com/developers/applications')
+        logging.info('2. Create a new application or select existing one')
+        logging.info('3. Go to Bot section and copy the token')
+        logging.info('4. Add the token to your environment variables')
         exit(1)
     
     try:
